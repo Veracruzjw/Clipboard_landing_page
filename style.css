@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+main {
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.history {
+    padding: 30px 345px 0;
+}
+.buttons{
+    margin-top: 30px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+.green{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: 1px solid hsl(171, 66%, 44%);
+    border-radius: 20px;
+    padding: 10px 30px; 
+    margin-right: 10px;
+    box-shadow: 2px 2px 1px hsl(171, 66%, 35%);
+}
+.blue{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: 1px solid hsl(233, 100%, 69%);
+    border-radius: 20px;
+    padding: 10px 30px;
+    box-shadow: 2px 2px 1px hsl(233, 55%, 55%)
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+}
+.snippets{
+    padding: 30px 345px 0;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.image_section {
+    display: flex;
+    margin-top: 50px;
+}
+.snippets_section{
+    padding: 80px 120px 0;
+    text-align: left;
+}
+.snippets_details{
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.devices{
+    margin-top: 100px;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.workflows{
+    display: flex;
+    width: 100%;
+    padding: 100px;
+}
+.flow{
+    padding: 0 30px;
+}
+.icona{
+    width: 50px;
+    padding-bottom: 30px;
+}
+.iconb{
+    width: 52px;
+    padding-bottom: 30px;
+}
+.iconc{
+    width: 70px;
+    padding-bottom: 30px;
+}
+.brands{
+    display: flex;
+    width: 100%;
+    padding: 100px 150px;
+    justify-content: space-between;
+}
+.brand{
+    height: 40px;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+footer{
+    color: hsl(201, 11%, 66%);
+    background-color: hsla(202, 11%, 66%, 0.103);
+    display: flex;
+    width: 100%;
+    padding: 40px 150px;
+    align-items: center;
+}
+
+.logod{
+    width: 50px;
+}
+.logo_down{
+    padding-right: 150px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 190px;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 500;
+    padding-bottom: 15px;
+    
+}
+.social_media{
+    display: flex;
+}
+.smlink{
+    padding-right: 30px;
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .first {
+      background-image: url(./images/bg-header-mobile.png);
+      height: auto;
+      padding: 60px 20px;
+    }
+  
+    .history, .snippets {
+      padding: 30px 20px 0;
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 26px;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .green, .blue {
+      margin: 10px 0;
+      width: 100%;
+      max-width: 300px;
+    }
+    .second{
+        margin-top: 100px;
+  
+    .image_section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .computer {
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 50px;
+    }
+  
+    .snippets_section {
+      padding: 0 20px;
+      text-align: center;
+    }
+  
+    .devices {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .workflows {
+      flex-direction: column;
+      padding: 50px 20px;
+    }
+  
+    .flow {
+      padding: 20px 0;
+    }
+  
+    .brands {
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+  
+    .brand {
+      margin-bottom: 40px;
+    }
+  
+    footer {
+      flex-direction: column;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    .logo_down {
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+  
+    nav {
+      flex-direction: column;
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+  
+    .column {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .social_media {
+      justify-content: center;
+    }
+  
+    .smlink {
+      padding: 0 15px;
+    }
+  }
