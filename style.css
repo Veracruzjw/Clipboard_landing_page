@@ -288,7 +288,7 @@ a{
     }
   
     .workflows {
-        display: flex;
+      display: flex;
       flex-direction: column;
       padding: 50px 20px;
     }
@@ -298,7 +298,7 @@ a{
     }
   
     .brands {
-        display: flex;
+      display: flex;
       flex-direction: column;
       align-items: center;
       padding: 50px 20px;
@@ -309,7 +309,7 @@ a{
     }
   
     footer {
-        display: flex;
+      display: flex;
       padding: 40px 20px;
       text-align: center;
     }
@@ -320,7 +320,7 @@ a{
     }
   
     nav {
-        display: flex;
+      display: flex;
       flex-direction: column;
       padding-right: 0;
       margin-bottom: 40px;
