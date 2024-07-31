@@ -132,7 +132,6 @@ h3{
 }
 .workflows{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     padding: 50px 20px;
@@ -157,7 +156,6 @@ h3{
 }
 .brands{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     align-items: center;
     padding: 50px 20px;
@@ -179,7 +177,6 @@ footer{
     color: hsl(201, 11%, 66%);
     background-color: hsla(202, 11%, 66%, 0.103);
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     padding: 40px 5%;
