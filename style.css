@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    max-width: 2000px;
     height: auto;
 }
 main {
@@ -16,16 +17,22 @@ main {
 .first{
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    height: 360px;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding-top: 120px;
     align-items: center;
     text-align: center;
+    min-height: 360px;
     width: 100%;
+    max-width: 2000px;
 }
 .history {
-    padding: 30px 345px 0;
+  max-width: 730px;
+  margin: 30px auto 0;
+  padding: 0 20px;
 }
 .buttons{
     margin-top: 30px;
@@ -69,7 +76,9 @@ p {
     width: 100%;
 }
 .snippets{
-    padding: 30px 345px 0;
+  max-width: 730px;
+  margin: 30px auto 0;
+  padding: 0 20px;
 }
 h2{
     font-size: 30px;
@@ -79,10 +88,15 @@ h2{
 }
 .image_section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
 }
 .snippets_section{
-    padding: 80px 120px 0;
+    flex: 1;
+    min-width: 300px;
+    padding: 40px;
     text-align: left;
 }
 .snippets_details{
@@ -104,6 +118,8 @@ h3{
 }
 .devices{
     margin-top: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 .fourth{
@@ -116,11 +132,16 @@ h3{
 }
 .workflows{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    padding: 100px;
+    padding: 50px 20px;
 }
 .flow{
-    padding: 0 30px;
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 .icona{
     width: 50px;
@@ -136,12 +157,15 @@ h3{
 }
 .brands{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    padding: 100px 150px;
-    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    justify-content: center;
 }
 .brand{
     height: 40px;
+    margin: 20px 40px;
 }
 .fifth{
     display: flex;
@@ -155,8 +179,10 @@ footer{
     color: hsl(201, 11%, 66%);
     background-color: hsla(202, 11%, 66%, 0.103);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-    padding: 40px 150px;
+    padding: 40px 5%;
     align-items: center;
 }
 
@@ -165,11 +191,19 @@ footer{
 }
 .logo_down{
     padding-right: 150px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     padding-right: 190px;
+    flex: 3;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
   
 .column {
@@ -186,6 +220,9 @@ a{
 }
 .social_media{
     display: flex;
+    flex: 1;
+    min-width: 200px;
+    justify-content: center;
 }
 .smlink{
     padding-right: 30px;
@@ -230,6 +267,7 @@ a{
     }
     .second{
         margin-top: 100px;
+    }
   
     .image_section {
       flex-direction: column;
@@ -286,6 +324,7 @@ a{
       flex-direction: column;
       padding-right: 0;
       margin-bottom: 40px;
+      align-items: center;
     }
   
     .column {
@@ -300,4 +339,5 @@ a{
     .smlink {
       padding: 0 15px;
     }
-  }
+
+}
